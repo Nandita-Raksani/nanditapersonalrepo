@@ -8,5 +8,6 @@ public class FizzBuzzConverterTest {
     public void converterReturnsNormalNumberAsIs(){
         FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
         Assert.assertEquals(1,fizzBuzzConverter.convert(1));
+        Assert.assertEquals(2,fizzBuzzConverter.convert(2));
     }
 }
