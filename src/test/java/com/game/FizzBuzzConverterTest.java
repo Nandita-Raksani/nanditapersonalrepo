@@ -26,4 +26,9 @@ public class FizzBuzzConverterTest {
         Assert.assertEquals("Buzz", fizzBuzzConverter.convert(10));
         Assert.assertEquals("Buzz", fizzBuzzConverter.convert(100));
     }
+
+    @Test
+    public void converterReturnsFizzBuzzForMultiplesOfFiveAndThree(){
+        Assert.assertEquals("FizzBuzz", fizzBuzzConverter.convert(15));
+    }
 }

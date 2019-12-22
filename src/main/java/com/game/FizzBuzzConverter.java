@@ -2,6 +2,9 @@ package com.game;
 
 public class FizzBuzzConverter {
     public String convert(int numberToBeConverted) {
+        if(numberToBeConverted%15==0){
+            return "FizzBuzz";
+        }
         if(numberToBeConverted%5==0){
             return "Buzz";
         }
